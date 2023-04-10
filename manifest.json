@@ -1,0 +1,13 @@
+{
+  "name": "Youtube Ad-Skip",
+  "manifest_version": 3,
+  "description": "Automatically Skip youtube Ad",
+  "author": "Timileyin Oyelekan",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.youtube.com/**"]
+    }
+  ]
+}
